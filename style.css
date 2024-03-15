@@ -144,3 +144,11 @@ article div {
         margin-left: 40px;
         margin-right: auto;
     }
+
+    .contact p[href^="mailto"] {
+        color: sienna;
+        /* Change the text color */
+        text-decoration: none;
+        /* Remove underline */
+        font-weight: bold;
+    }
